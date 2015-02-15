@@ -50,6 +50,7 @@
 		)); ?>
           </div>
 	</nav><!-- mainmenu -->
+        <div class="container-fluid indentation">
       <header id="header">
 		<div id="logo"><?php echo CHtml::encode(Yii::app()->name); ?></div>
                 <h1>Hello, world!</h1>
@@ -57,7 +58,7 @@
 
 
     <?php echo $content; ?>
-
+        </div>
   </body>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="<?php echo Yii::app()->theme->baseUrl . "/js/bootstrap.min.js"; ?>"></script>

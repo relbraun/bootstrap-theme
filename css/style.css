@@ -7,3 +7,6 @@
 .error .control-label, .errorMessage{
     color: #a94442;
 }
+.indentation{
+    margin: 20px;
+}
